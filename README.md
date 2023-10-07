@@ -1,16 +1,16 @@
 # audio_app
 
-A new Flutter project.
+This a simple audio app that fetches an audio file from an api and plays it.
 
-## Getting Started
+## Package that I used 
 
-This project is a starting point for a Flutter application.
+Used flutter_localizations so the app can support the Arabic language
+Used audioplayers to play the audio url that was fetched from the api 
+used Provider for the state management of the app 
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots 
+![Screenshot_1696707548](https://github.com/metalFrenzy/audio-app/assets/70327788/2178f188-b36c-4266-a335-a0c70d6497c6)
+![Screenshot_1696707672](https://github.com/metalFrenzy/audio-app/assets/70327788/72be9307-f1a9-419a-91d4-698bc3e38e80)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1696707730](https://github.com/metalFrenzy/audio-app/assets/70327788/726e7afb-db13-4795-b17e-0da18fd70faa)
+![Screenshot_1696707878](https://github.com/metalFrenzy/audio-app/assets/70327788/462ffcdc-a27f-4e84-9b3b-34f286549a57)
