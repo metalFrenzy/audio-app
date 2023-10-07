@@ -28,16 +28,16 @@ class _AudioWidgetState extends State<AudioWidget> {
     return Padding(
       padding: const EdgeInsets.all(8),
       child: Card(
+        color: Theme.of(context).colorScheme.secondary,
         child: ListTile(
           title: Text(
             S.of(context).audio,
-            style: Theme.of(context).textTheme.bodyLarge,
           ),
           trailing: IconButton(
             icon: _isPlaying
                 ? Icon(
                     Icons.pause_circle_filled,
-                    color: Colors.deepPurple,
+                    color: Color.fromARGB(255, 112, 73, 180),
                   )
                 : Icon(
                     Icons.play_circle_filled,
